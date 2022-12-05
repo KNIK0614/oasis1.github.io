@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.titlebar{
+    text-align: center;
+    background: linear-gradient( #4c8fa4 0%, #0f0e0f 100%);
+    margin-top: -2% ;
+    font-size: 3vh;  
+    height: 60px;
+      
+}
+
+
+ #author{
+text-align: end;
+color: rgb(12, 12, 12);
+font-family:  sans-serif;
+}
+.calculator {
+padding: 10px;
+border-radius: 1em;
+height: 500px;
+width: 500px;
+margin: auto;
+background-color: #3f3d40;
+box-shadow: rgba(79, 130, 160, 0.19) 0px 10px 20px, rgba(222, 168, 168, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+font-family:  sans-serif;
+background-color: #eeedf4;
+border: solid black 0.5px;
+color: black;
+border-radius: 5px;
+width: 90%;
+height: 65%;
+}
+
+#btn {
+background-color: #0e0e0f;
+}
+
+input[type=button] {
+font-family:  sans-serif;
+background-color: #0c0c0c;
+color: rgb(248, 249, 247);
+border: solid black 0.5px;
+width: 100%;
+border-radius: 10px;
+height: 100%;
+outline: none;
+}
+
+input:active[type=button] {
+background: #c0e17c;
+color: #020202;
+-webkit-box-shadow: inset 0px 0px 5px #c4da5a;
+-moz-box-shadow: inset 0px 0px 5px #b2c059;
+box-shadow: inset 0px 0px 5px #95cf65;
+}
